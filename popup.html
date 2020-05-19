@@ -19,8 +19,8 @@
         font-family: "Open Sans", sans-serif;
         font-size: 13px;
         margin: 0;
-        padding: 8px;
-        width: 155px;
+        padding: 5px 5px 13px 5px;
+        width: 135px;
         background: #363e43;
       }
       *{
@@ -39,22 +39,22 @@
         margin-right:10px;
       }
       #toggle-btn {
-        background: #2a3036;
+        /* background: #2a3036;
         border-radius: 30px;
         width: calc(100% - 20px);
         margin-top: 16px;
         height: 30px;
         position: relative;
         box-shadow: inset 0 0 11px #0000005e;
-        cursor:pointer;
+        cursor:pointer; */
       }
       #toggle-btn:hover {
         opacity: 0.8;
       } 
 
       #toggle-btn.active {
-        background: #b2d860;
-        box-shadow: 0 0 5px 1px #b2d860;
+        /* background: #b2d860;
+        box-shadow: 0 0 5px 1px #b2d860; */
       }
 
       #toggle-btn.active .circle{
@@ -79,6 +79,40 @@
       span{
         color:#7f899b;
       }
+
+      .wrap {
+        width: 100%;
+        height: 15px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-top: 1px solid #2c3438;
+        padding: 2px 0;
+      }
+      .infos-left {
+        position: absolute;
+        bottom: 3px;
+        left: 7px;
+        font-size: 11px;
+      }
+
+      .infos-right {
+        position: absolute;
+        bottom: 3px;
+        right: 7px;
+        font-size: 11px;
+      }
+      .info, .pause {
+        top: 5px;
+        right: 8px;
+        color: #656e7e;
+        opacity: 1;
+        cursor: pointer;
+      }
+      .info:hover, .pause:hover {
+        opacity: 0.8;
+        color: #8ec44a;
+      }
     </style>
     <script src="popup.js"></script>
   </head>
@@ -90,11 +124,20 @@
         <b>Dark Mode <br> <span>for Circuit</span></b>
       </div>
     </div>
-    <div class="modal-content">
+    <!-- <div class="modal-content">
       <div id="toggle-btn" class="active">
         <div class="circle">
           <img width="8x" src="images/c.png" />
         </div>
+      </div>
+    </div> -->
+    <div class="wrap">
+      <div class="infos-left">
+        <a id="toggle-btn" href="#"><i class="pause fa fa-pause-circle-o"></i></a>
+        <a href="#"><i class="pause fa fa-share-alt"></i></a>
+      </div>
+      <div class="infos-right">
+        <a target="_blank" href="https://www.linkedin.com/posts/duarteleme_ui-ux-darkmode-activity-6667075150015422464-PcXB"><i class="info fa fa-info-circle"></i></a>
       </div>
     </div>
   </body>
