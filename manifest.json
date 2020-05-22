@@ -3,7 +3,7 @@
 
   "name": "Circuit Dark Mode",
   "description": "Dark Mode for  Circuit. Extension not official",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "content_scripts": [
     {
       "matches": ["https://eu.yourcircuit.com/*"], 
