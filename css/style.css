@@ -381,10 +381,10 @@ body.darkmode {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
-.darkmode .item-attachment .single-image.image-container {
+/* .darkmode .item-attachment .single-image.image-container {
     opacity: 0.7 !important;
     filter: grayscale(100%);
-}
+} */
 
 .darkmode .itemlist .list-item .feed-item .thread-item-controls-container .details-wrapper .like-text {
     color: #a7a6af;
@@ -714,4 +714,260 @@ body.darkmode {
 
 .darkmode .settings-container .section .section-label {
     color: #bfbcc4;
+}
+
+.darkmode .mention {
+    color: #8dc66d !important;
+}
+
+.darkmode .rich-text .controls.dark-background {
+    align-items: center;
+    height: 40px;
+    background-color: #2a2e2e;
+}
+
+.darkmode  .conversation-feed .feed-item.typing-indicator .item-header .message {
+    color: #798385;
+}
+
+.darkmode  .itemlist .list-item .feed-item .thread-item-header-body .content .edited-indicator {
+    color: #8b8a93;
+}
+
+.darkmode .nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
+    color: #c0c4d0;
+}
+
+.darkmode .action-button.schedule-button {
+    background: #4a4f52 linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border: 1px solid rgb(76, 83, 86);
+}
+
+.darkmode .action-button.schedule-button .action-button-icon {
+    color: #aaa7af;
+}
+
+.darkmode .action-button.voice {
+    box-shadow: rgba(189, 255, 187, 0.65) 0px 0px 20px 1px;
+}
+
+.darkmode  .action-button.video {
+    box-shadow: rgba(189, 255, 187, 0.65) 0px 0px 20px 1px;
+}
+
+.darkmode .user-details-header .fullname, .user-details-header .conversation-title, .user-details-header .fullname>input, .user-details-header .conversation-title~input {
+    color: #bbc5cd;
+}
+
+.darkmode .toggle-switch .switch-item~.toggle-styling {
+    background: #353a3d;
+}
+
+.darkmode .toggle-switch .switch-item[checked]~.toggle-styling {
+    background: #88c541 !important;
+}
+
+.darkmode .user-details-header .details-link {
+    color: #8dc66d;
+}
+
+.darkmode hr.solid-grey {
+    border-top: 1px solid #464d51;
+}
+
+
+.darkmode .details-content .all-members .member, .details-content .all-numbers .member, .details-content .all-members .number, .details-content .all-numbers .number {
+    border-bottom: 1px solid #43484c;
+}
+
+.darkmode .details-content .nav-tabs {
+    border-bottom: 1px solid #51595d;
+}
+
+.darkmode .details-content .all-members .member:hover, .details-content .all-numbers .member:hover, .details-content .all-members .number:hover, .details-content .all-numbers .number:hover {
+    background-color: #333739;
+}
+
+.darkmode .details-content .all-members .member .name:hover, .details-content .all-numbers .member .name:hover, .details-content .all-members .number .name:hover, .details-content .all-numbers .number .name:hover {
+    color: #858d93;
+}
+
+.darkmode .details-content .all-members .member .name, .details-content .all-numbers .member .name, .details-content .all-members .number .name, .details-content .all-numbers .number .name {
+    color: #9ea0a5;
+}
+
+.darkmode .details-content .all-members .member .role, .details-content .all-numbers .member .role, .details-content .all-members .number .role, .details-content .all-numbers .number .role {
+    color: #828088;
+}
+
+.darkmode .details-content .tab-content {
+    border-top: 1px solid rgb(53, 58, 61);
+}
+
+.darkmode .main-window main.right-list .middle-pane .middle-pane-container .nav-tabs>li.active {
+    border-bottom: 2px solid #88c441;
+}
+
+.darkmode .tab-dialin .align-to-tab .action-links .links {
+    color: #8dc66d;
+}
+
+.darkmode .tab-dialin .change-link button {
+    color: #8dc66d;
+}
+
+.darkmode .tab-dialin .item .item-label {
+    color: #8c8e8f;
+}
+
+.darkmode .tab-dialin .item .item-value {
+    color: #acacb0;
+}
+
+.darkmode .tab-dialin .all-numbers .number .info {
+    color: #9e9e9f;
+}
+
+.darkmode .tab-dialin .section-header .section-title {
+    color: #b4bcc1;
+}
+
+.darkmode .tab-dialin .conf-info {
+    border-bottom: 1px solid #44484b;
+}
+
+.darkmode .tab-my-profile-details .section-header .section-title, .tab-user-details .section-header .section-title {
+    color: #b4bbc0;
+}
+
+.darkmode .tab-my-profile-details .section-content .control-label, .tab-user-details .section-content .control-label {
+    color: #b2afb8;
+}
+
+.darkmode .tab-my-profile-details .section-content .controls .text-label, .tab-user-details .section-content .controls .text-label {
+    color: #93979f;
+}
+
+.darkmode .tab-my-profile-details .section-header, .tab-user-details .section-header {
+    border-bottom: 1px solid #353a3d;
+    box-shadow: 0 1px 0 0 rgb(74, 79, 82);
+}
+
+.darkmode .button.tertiary.light-background:hover, .button.tertiary.dark-background:hover, .button.tertiary.light-background:focus, .button.tertiary.dark-background:focus {
+    background: #434949 linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.2));
+}
+
+.darkmode .conversation-feed .list-item .ncm-row .right-column:not(.deleted) .unread-indicator {
+    box-shadow: rgba(50, 177, 63, 0.25) 0px 3px 6.1rem 0.8rem !important;
+    border-bottom: 1px solid rgba(38, 224, 124, 0.29) !important;
+}
+
+.darkmode .selector-panel .selector-panel-container .selector-panel-content .panel-view .favorites-list, .selector-panel .selector-panel-container .selector-panel-content .panel-view .notifications-list, .selector-panel .selector-panel-container .selector-panel-content .panel-view .meetings-list {
+    border-right: 1px solid #494e50;
+}
+
+.darkmode .panel-view .notification:hover, .panel-view .meeting:hover, .panel-view .notification:focus, .panel-view .meeting:focus {
+    background-color: #616266;
+}
+
+.darkmode .hr.solid-lightGrey {
+    border-top: 1px solid #4e5457;
+}
+
+.darkmode .panel-view .notification .body .header, .panel-view .meeting .body .header {
+    color: #bbbdc3;
+}
+
+.darkmode .panel-view .notification .body .teaser, .panel-view .meeting .body .teaser {
+    color: #d9d9d9;
+}
+
+.darkmode .panel-view .notification .body .header .conversation-title, .panel-view .meeting .body .header .conversation-title {
+    color: #979797;
+}
+
+.darkmode .selector-panel .selector-panel-container .selector-panel-content .panel-title {
+    border: .1rem solid #444a4c;
+    color: #9ea1aa;
+}
+
+.darkmode .telephony-panel .selector-list .selector {
+    color: #b7babc;
+}
+
+.darkmode .telephony-panel .selector-list .selector:hover {
+    background-color: #494e51;
+}
+
+.darkmode .telephony-panel .selector-list .selector {
+    border-bottom: .1rem solid #4d5357;
+    color: #b7babc;
+}
+
+.darkmode .telephony-panel {
+    border-right: .1rem solid #4c5357;
+}
+.darkmode .telephony-panel .bottom-section .user-info .phone-number {
+    color: #9799a0;
+}
+
+.darkmode .telephony-panel .bottom-section .phone-input .dial-input-field .input-wrapper input {
+    background: #2a3136;
+}
+
+.darkmode .telephony-panel .bottom-section .phone-input .dial-input-field .input-wrapper {
+    border: .1rem solid #444a4c;
+}
+
+.darkmode .telephony-panel .bottom-section .phone-input .dial-input-field .input-wrapper .clear-btn {
+    margin: .2rem 0.7rem 0 6px;
+    color: #86bf40;
+}
+
+.darkmode .telephony-panel .selector-list .selector:first-of-type {
+    border-top: .1rem solid #525459;
+}
+
+.darkmode .telephony-panel .selector-list .selector.selected {
+    background-color: #525459;
+}
+
+.darkmode .call-history .call-history-header-title {
+    color: #b3babf;
+}
+
+.darkmode .call-history-item {
+    background-color: #353a3d;
+}
+
+.darkmode .call-history-item .item-container .call-info-section .content .contact-primary-info {
+    color: #c0c0c0;
+}
+
+.darkmode .call-history-item .item-container:hover {
+    background-color: #474d50;
+}
+
+.darkmode .call-history-item .item-container .call-info-section .call-log-type {
+    color: #979a9c;
+}
+
+.darkmode .call-history-item .item-container .call-info-section .call-duration {
+    color: #a5adb3;
+}
+
+.darkmode .call-history-item .item-container .call-info-section .time-action-container .time-stamp {
+    color: #97969c;
+}
+
+.darkmode .call-history-item .item-container .call-info-section .time-action-container .delete-action {
+    color: #86c141;
+}
+
+.darkmode .call-history .call-history-divider {
+    color: #959da2;
+}
+
+.darkmode .call-history .delete-all-subheader .delete-all-container .delete-all-action {
+    color: #68747c;
 }
